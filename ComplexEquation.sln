@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexEquation", "ComplexEquation\ComplexEquation.csproj", "{DBE1B17A-8A1E-4C3B-ABE3-277BC95B4540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE1B17A-8A1E-4C3B-ABE3-277BC95B4540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE1B17A-8A1E-4C3B-ABE3-277BC95B4540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE1B17A-8A1E-4C3B-ABE3-277BC95B4540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE1B17A-8A1E-4C3B-ABE3-277BC95B4540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23D6EE14-7B83-4D0D-8589-C074370D43B9}
+	EndGlobalSection
+EndGlobal

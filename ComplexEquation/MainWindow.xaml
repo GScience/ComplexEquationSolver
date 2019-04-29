@@ -1,0 +1,22 @@
+﻿<Window x:Class="ComplexEquation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComplexEquation"
+        mc:Ignorable="d"
+        Title="复数方程计算器——GScience Studio (v1.2.0)" Height="329.058" Width="590.496">
+    <Grid>
+
+        <Button x:Name="ButtonSolve" Content="Bingo!" Margin="0,0,10,10" Height="41" VerticalAlignment="Bottom"
+                HorizontalAlignment="Right" Width="139" Click="ButtonSolve_Click" />
+        <TextBox x:Name="ArgCountTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"
+                 VerticalAlignment="Top" Width="120" Margin="70,10,0,0" TextChanged="ChangeArgCount" />
+        <Label Content="方程项数：" HorizontalAlignment="Left" Height="27" Margin="0,8,0,0" VerticalAlignment="Top"
+               Width="70" />
+        <ScrollViewer Margin="10,40,10,56" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <Grid x:Name="ArgView" />
+        </ScrollViewer>
+        <Label x:Name="LogBar" Content="" VerticalAlignment="Bottom" Margin="10,0,154,10" />
+    </Grid>
+</Window>
